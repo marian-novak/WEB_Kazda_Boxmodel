@@ -28,7 +28,7 @@
         background-image: url("../images/logo.svg");
         width: auto;
         height: 1em;
-        font-size: 1.5em;
+        font-size: 3em;
     }
     .page__logo > span {
         display: none;
@@ -48,14 +48,14 @@
         margin: 0 auto;
     }
     .page__content{
-        max-width: 40em;
+        max-width: 58em;
         margin: 0em auto;
     }
     .page__intro{
-        max-width: 45em;
+        max-width: 48em;
     }
     .page__header{
-        padding: calc(1em + 5%);
+        padding: 0.5em calc(1em + 5%) calc(1em + 5%) calc(1em + 5%);
         background-image: url(../images/header-2560w.webp);
         background-size: cover;
         background-position: top center;
@@ -63,7 +63,7 @@
     }
     .button{
         display: inline-block;
-        padding: 0.5em 1em;
+        padding: 1em 2em;
         text-decoration: none;
         border-radius: 0.5em;
         font-weight: bold;
@@ -83,5 +83,31 @@
     .button--primary:hover{
         background-color: var(--black);
         color: var(--light);
+    }
+    .picture-box{
+        margin: 1em 0em;
+    }
+    .picture-box__caption{
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: lighter;
+        margin-top: 1em;
+    }
+    .highlight-box{
+        padding: 2em;
+        border: var(--primary) 3px solid;
+    }
+    .list > li{
+        margin: 0.5em 0;
+    }
+    .list > li::marker{
+        color: var(--primary);
+    }
+    h1{
+        font-size: 5em;
+    }
+    .panel{
+        width: 25em;
+        display: inline-block;
     }
 }
