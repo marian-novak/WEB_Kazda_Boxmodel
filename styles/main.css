@@ -51,6 +51,10 @@
         max-width: 58em;
         margin: 0em auto;
     }
+    .page__section
+    {
+        padding: 1em;
+    }
     .page__intro{
         max-width: 48em;
     }
@@ -103,11 +107,13 @@
     .list > li::marker{
         color: var(--primary);
     }
-    h1{
+    h1
+    {
         font-size: 5em;
     }
     .panel{
         width: 25em;
         display: inline-block;
+        vertical-align: top;
     }
 }
